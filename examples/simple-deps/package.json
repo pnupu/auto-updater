@@ -1,0 +1,17 @@
+{
+  "name": "simple-deps-example",
+  "version": "1.0.0",
+  "description": "Simple example project with outdated dependencies",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'Build successful'",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "commander": "^14.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
